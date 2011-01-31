@@ -8,6 +8,9 @@
  * @author      Arkadiusz Tułodziecki
  * @author      Tomasz Ducin <tomasz.ducin@gmail.com> (Some methods are from tdRandomDataGenerator)
  */
+
+require_once( dirname( __FILE__ ).'/twRandGenerator.class.php' );
+
 class twLoremIpsum {
 	static protected $gen_unique_words = array();
 	static protected $gen_unique_emails = array();
